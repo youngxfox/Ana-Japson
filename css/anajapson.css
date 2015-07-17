@@ -32,10 +32,6 @@ a  img {
 	padding: 0;
 	background: #2e2d2d;
 }
-.bx-wrapper .bx-viewport {
-    border-top: 0 !important;
-    border-bottom: 0 !important;
-}
 .podval {
 	height: 90px;
 }
