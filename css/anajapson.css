@@ -123,15 +123,11 @@ a  img {
 .photo-button a {
 	text-decoration: none;
 }
-.photo-button a p:hover {
-	color: #C3C3C3;
-}
-.photo-button img:hover, .fancybox:hover {
+div.photo-button:hover, .fancybox:hover {
 	opacity:0.6;
 	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=70);
 	-ms-filter:progid:DXImageTransform.Microsoft.Alpha(opacity=70);
 }
-
 .card-art h3 {
 	font-size: 23px;
 	letter-spacing: 2px;
@@ -141,25 +137,23 @@ a  img {
 	margin-top: 30px;
 }
 
-
 /* CSS for SERVICES*/
 .prices {
 	min-height: 725px;
 }
-/* CSS for SERVICES*/
-.content-contacts {
-	min-height: 650px;
-}
 .text {
-	margin-top: 22px;
+	margin-top: 50px;
 }
-.text1 {
-	text-align: center;
-	position: relative;
-	font-family: arial, bold;
-	font-size: 11px;
+.text a {
+	text-decoration: none;
+}
+.text a h2 {
+	color: #ababab;
 	letter-spacing: 2px;
-	padding: 0;
+	text-decoration: none;
+}
+.text a h2:hover {
+	color: #2e2d2d
 }
 h2 {
 	font-family: 'Muli', arial, verdana, sans-serif, bold;
@@ -186,6 +180,9 @@ p {
 	line-height: 22px;
 }
 /* CSS for CONTACTS*/
+.content-contacts {
+	min-height: 650px;
+}
 .left-col-text {
 	float: left;
 	width: 450px;
@@ -198,6 +195,7 @@ p {
 	letter-spacing: 1px;
 	font-weight: normal;
 	text-align: justify;
+	text-decoration: none;
 }
 .right-col-pic {
 	margin-top: 37px;
@@ -214,8 +212,6 @@ h3 {
 	margin-left: 23px;
 }
 
-
-/* fancybox*/
 
 
 
